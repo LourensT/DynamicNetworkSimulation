@@ -8,7 +8,7 @@ This repository contains the code for generating dynamic networks. Dynamic netwo
     - exponential
     - powerlaw (pareto distributed)
 
-Combinations of these mechanisms leads to $2*2*4 = 16$ different possible generative models. However, certain combinations have nice properties (e.g. scale-free) while others have not-so-nice properties (e.g. being explosive in size). 
+Combinations of these mechanisms leads to $2 \times 2 \times 4 = 16$ different possible generative models. However, certain combinations have nice properties (e.g. scale-free) while others have not-so-nice properties (e.g. being explosive in size). 
 
 In addition, this repository contains code for:
 * calculating network statistics, referred to here as "static features"
