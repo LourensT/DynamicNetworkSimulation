@@ -1,4 +1,9 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-the-mechanisms-of-network-growth/graph-classification-on-synthetic-dynamic)](https://paperswithcode.com/sota/graph-classification-on-synthetic-dynamic?p=learning-the-mechanisms-of-network-growth)
+# Preprint
+[Preprint here](https://arxiv.org/abs/2404.00793)
+
 # CTBP dynamic network simulation
+
 
 This repository contains the code for generating dynamic networks. Dynamic networks are networks that grow one node at a time. The new node first samples its random out-degree, i.e. the number of existing nodes it will attach too. In this repository, this is sampled from the empirical out-degree distribution, which is stored as a python dictionary in `out_degree_distr.py`. The node then attaches to existing nodes, with probabilities defined by a given combinations of the following mechanisms:
 * Affine preferential attachment
