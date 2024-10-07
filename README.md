@@ -34,4 +34,4 @@ The repository is structured as follows:
 
 * `static_feature_extraction.py` contains code for calculating the static features used in the paper. 
     * it depends on `dynamic_feature_extraction.py` to load the dynamic network and get the static final snapshot as a networkx Graph object.
-    * some static featuers are computationaly heavy, and for large/many networks, one is recommended to use [graph-tool](https://graph-tool.skewed.de/), a Python module with an c++ implementation. See `calculating_static_featuers_with_graph_tool.py`.
+    * some static featuers are computationally heavy, and for large/many networks, one is recommended to use [graph-tool](https://graph-tool.skewed.de/), a Python module with an c++ implementation. See `calculating_static_featuers_with_graph_tool.py`.
